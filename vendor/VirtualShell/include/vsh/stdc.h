@@ -582,8 +582,9 @@ namespace stdc
 
 		// stdc_1A00F889  // _ZNSt9exceptionD2Ev
 
-		clock_t stdc_24F6CBDD(void);                                                   // clock()
-		static clock_t clock() { return stdc_24F6CBDD(); }
+		//clock_t stdc_24F6CBDD(void);                                                   // clock()
+		
+		//static clock_t clock() { return stdc_24F6CBDD(); }
 
 		time_t stdc_89F6F026(time_t *timer);                                           // time()
 		static time_t time(time_t* timer) { return stdc_89F6F026(timer); }
